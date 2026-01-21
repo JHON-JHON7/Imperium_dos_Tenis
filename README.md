@@ -1,97 +1,33 @@
-# Imperium dos Tênis Front-end
+Imperium dos Tênis - Front-end
+Este é o repositório da interface do usuário (Client-side) para o e-commerce Imperium dos Tênis, focado em oferecer uma experiência premium na compra de calçados das marcas mais desejadas do mercado.
 
-Sistema de E-commerce de Loja de Tênis - Interface do Cliente
+📋 Sobre o Projeto
+O projeto consiste em um sistema de e-commerce moderno e responsivo, desenvolvido para consolidar conhecimentos em React e manipulação de estados. A plataforma permite a navegação por categorias, filtragem avançada de produtos e um fluxo de compra completo, desde a escolha do tamanho até a finalização do pedido.
 
-## 📋 Sobre o Projeto
+A identidade visual foi construída com foco na elegância, utilizando predominantemente as cores Preto e Dourado.
 
-Frontend desenvolvido com HTML, CSS, JavaScript e React para um e-commerce loja de tênis , oferecendo uma experiência de compra moderna e responsiva.
+Tecnologias
+React 18 - Biblioteca principal para construção da UI.
 
-## 🚀 Tecnologias
+JavaScript (ES6+) - Lógica de interatividade e manipulação de dados.
 
-- **HTML5** - Estruturação semântica das páginas
-- **CSS3** - Estilização e responsividade
-- **JavaScript ES6+** - Interatividade e lógica client-side
-- **React** 18.x - Biblioteca para construção de interfaces dinâmicas
-- **React Router** - Roteamento da aplicação
-- **Axios** - Cliente HTTP para comunicação com API
-- **LocalStorage** - Persistência de dados local (carrinho, preferências)
+CSS3 / Styled Components - Estilização moderna com foco em Dark Mode.
 
-## 🧷 Tamanhos recomendados
+React Router - Gerenciamento de rotas e navegação.
 
-| **Tipo**      | **Tamanho Ideal** | **Proporção**        |
-|----------------|-------------------|-----------------------|
-| **Banners**    | 1920x1080px       | 16:9 (paisagem)      |
-| **Categorias** | 800x800px         | 1:1 (quadrado)       |
-| **Produtos**   | 800x800px         | 1:1 (quadrado)       |
+LocalStorage - Persistência do carrinho de compras e preferências do usuário.
 
-## 📱 Features Implementadas
+✨ Funcionalidades
+Vitrine Dinâmica: Listagem de produtos com badges de "Novo" e filtros por categoria (Esportivos, Casuais).
 
-### ✅ Módulo de Autenticação 
-- Cadastro de usuários com validação
-- Login e logout
-- Recuperação de senha
-- Proteção de rotas
+Filtragem Avançada: Sistema de busca por marca (Nike, Vans, Adidas, etc.), faixa de preço via slider e seleção de tamanhos.
 
-### ✅ Módulo de Produtos 
-- Catálogo completo com fotos em alta qualidade
-- Sistema de busca inteligente
-- Filtros por categoria, preço, marca e tamanho
-- Página de detalhes com especificações
+Carrinho de Compras (Drawer): Interface lateral que permite visualizar itens, ajustar quantidades e remover produtos sem sair da página atual.
 
-### ✅ Módulo do Carrinho 
-- Adicionar/remover produtos
-- Alterar quantidades e tamanhos
-- Cálculo automático de subtotais
-- Carrinho persistente no LocalStorage
+Sistema de Favoritos: Lista de desejos persistente para salvar modelos preferidos.
 
-### ✅ Módulo de Checkout 
-- Processo de finalização seguro
-- Múltiplos métodos de pagamento
-- Cálculo de frete em tempo real
-- Validação de dados pessoais
+Checkout em Etapas: Processo dividido em Endereço, Pagamento e Confirmação para melhor usabilidade.
 
-### ✅ Área do Cliente 
-- Histórico de pedidos
-- Dados pessoais editáveis
-- Endereços salvos
-- Lista de favoritos
+Gestão de Cupons: Aplicação de descontos dinâmicos no carrinho (Ex: DESCONTO10).
 
-### ✅ Sistema de Avaliações 
-- Avaliação com estrelas (1-5)
-- Comentários detalhados
-- Visualização de avaliações
-
-### ✅ Rastreamento de Pedidos 
-- Acompanhamento de status
-- Código de rastreamento
-- Histórico de entregas
-
-## 🎨 Design e Responsividade
-
-### CSS Responsivo
-- **Mobile First** - Design otimizado para dispositivos móveis
-- **Breakpoints:** 320px, 768px, 1024px, 1440px
-- **Grid System** - Layout flexível com CSS Grid e Flexbox
-- **Cross-browser** - Compatibilidade com Chrome, Firefox, Safari, Edge
-
-
-## 📱 Compatibilidade
-
-### Navegadores Suportados
-- ✅ Chrome 70+
-- ✅ Firefox 65+
-- ✅ Safari 12+
-- ✅ Edge 79+
-
-### Dispositivos
-- ✅ Desktop (1920x1080+)
-- ✅ Laptop (1366x768+)
-- ✅ Tablet (768x1024)
-- ✅ Mobile (320x568+)
-
-
-## 👥 Equipe de Desenvolvimento
-- Gabriel Constantino 
-- João Lucas F
-- João Victor F
-  
+Área do Cliente: Páginas completas de Login e Cadastro com validação de campos.
