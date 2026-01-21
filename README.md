@@ -1,33 +1,99 @@
-Imperium dos Tênis - Front-end
-Este é o repositório da interface do usuário (Client-side) para o e-commerce Imperium dos Tênis, focado em oferecer uma experiência premium na compra de calçados das marcas mais desejadas do mercado.
+---
 
-📋 Sobre o Projeto
-O projeto consiste em um sistema de e-commerce moderno e responsivo, desenvolvido para consolidar conhecimentos em React e manipulação de estados. A plataforma permite a navegação por categorias, filtragem avançada de produtos e um fluxo de compra completo, desde a escolha do tamanho até a finalização do pedido.
+# 👟 Imperium dos Tênis — Front-end
 
-A identidade visual foi construída com foco na elegância, utilizando predominantemente as cores Preto e Dourado.
+Front-end de um **e-commerce premium de calçados**, desenvolvido com **React 18**, com foco em **experiência do usuário**, **componentização**, **gerenciamento de estado** e **boas práticas de desenvolvimento front-end**.
 
-Tecnologias
-React 18 - Biblioteca principal para construção da UI.
+Este projeto simula um cenário real de e-commerce, abordando desde a exibição de produtos até o fluxo completo de compra.
 
-JavaScript (ES6+) - Lógica de interatividade e manipulação de dados.
+---
 
-CSS3 / Styled Components - Estilização moderna com foco em Dark Mode.
+##  Visão Geral
 
-React Router - Gerenciamento de rotas e navegação.
+O **Imperium dos Tênis** é uma aplicação web moderna e responsiva que permite ao usuário navegar por produtos, aplicar filtros avançados, gerenciar um carrinho de compras e concluir pedidos por meio de um checkout em etapas.
 
-LocalStorage - Persistência do carrinho de compras e preferências do usuário.
+A identidade visual foi pensada para transmitir **sofisticação**, utilizando uma paleta baseada em **Preto e Dourado**, com suporte a **Dark Mode**.
 
-✨ Funcionalidades
-Vitrine Dinâmica: Listagem de produtos com badges de "Novo" e filtros por categoria (Esportivos, Casuais).
+---
 
-Filtragem Avançada: Sistema de busca por marca (Nike, Vans, Adidas, etc.), faixa de preço via slider e seleção de tamanhos.
+## 🛠️ Stack Tecnológica
 
-Carrinho de Compras (Drawer): Interface lateral que permite visualizar itens, ajustar quantidades e remover produtos sem sair da página atual.
+* **React 18**
+* **JavaScript (ES6+)**
+* **Styled Components / CSS3**
+* **React Router DOM**
+* **LocalStorage**
 
-Sistema de Favoritos: Lista de desejos persistente para salvar modelos preferidos.
+---
 
-Checkout em Etapas: Processo dividido em Endereço, Pagamento e Confirmação para melhor usabilidade.
+## ✨ Principais Funcionalidades
 
-Gestão de Cupons: Aplicação de descontos dinâmicos no carrinho (Ex: DESCONTO10).
+### 🛍️ Catálogo de Produtos
 
-Área do Cliente: Páginas completas de Login e Cadastro com validação de campos.
+* Listagem dinâmica de produtos
+* Destaque para lançamentos (*badge "Novo"*)
+* Organização por categorias
+
+### 🔎 Filtros e Busca
+
+* Filtro por marca (Nike, Adidas, Vans, etc.)
+* Filtro por faixa de preço
+* Seleção de tamanhos disponíveis
+
+### 🛒 Carrinho de Compras
+
+* Carrinho lateral (*Drawer*)
+* Atualização de quantidades em tempo real
+* Remoção de itens sem recarregar a página
+* Persistência dos dados no **LocalStorage**
+
+### ❤️ Favoritos
+
+* Sistema de lista de desejos
+* Persistência dos produtos favoritos
+
+### 💳 Checkout em Etapas
+
+* Fluxo dividido em:
+
+  * Endereço
+  * Pagamento
+  * Confirmação
+* Melhoria da usabilidade e clareza no processo de compra
+
+### 🎟️ Cupons de Desconto
+
+* Aplicação de cupons promocionais
+* Cálculo automático de descontos no carrinho
+
+### 👤 Autenticação do Usuário
+
+* Páginas de **Login** e **Cadastro**
+* Validação de campos de formulário
+
+---
+
+## 🎯 Objetivos Técnicos
+
+* Aplicar conceitos avançados de **React**
+* Trabalhar com **componentização reutilizável**
+* Gerenciar estado da aplicação de forma eficiente
+* Implementar persistência de dados no navegador
+* Desenvolver uma interface com foco em **UX/UI**
+* Simular um projeto real de e-commerce para portfólio
+
+---
+
+## 📌 Status do Projeto
+
+* Projeto terminando
+
+---
+
+## 📄 Observações
+
+Este projeto foi desenvolvido com fins **educacionais e demonstrativos**, não possuindo integração com gateway de pagamento real ou backend em produção.
+
+---
+
+
