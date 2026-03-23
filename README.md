@@ -16,7 +16,7 @@ A identidade visual foi pensada para transmitir **sofisticação**, utilizando u
 
 ---
 
-## 🛠️ Stack Tecnológica
+## Stack Tecnológica
 
 * **React 18**
 * **JavaScript (ES6+)**
@@ -26,33 +26,33 @@ A identidade visual foi pensada para transmitir **sofisticação**, utilizando u
 
 ---
 
-## ✨ Principais Funcionalidades
+##  Principais Funcionalidades
 
-### 🛍️ Catálogo de Produtos
+### Catálogo de Produtos
 
 * Listagem dinâmica de produtos
 * Destaque para lançamentos (*badge "Novo"*)
 * Organização por categorias
 
-### 🔎 Filtros e Busca
+### Filtros e Busca
 
 * Filtro por marca (Nike, Adidas, Vans, etc.)
 * Filtro por faixa de preço
 * Seleção de tamanhos disponíveis
 
-### 🛒 Carrinho de Compras
+###  Carrinho de Compras
 
 * Carrinho lateral (*Drawer*)
 * Atualização de quantidades em tempo real
 * Remoção de itens sem recarregar a página
 * Persistência dos dados no **LocalStorage**
 
-### ❤️ Favoritos
+###  Favoritos
 
 * Sistema de lista de desejos
 * Persistência dos produtos favoritos
 
-### 💳 Checkout em Etapas
+###  Checkout em Etapas
 
 * Fluxo dividido em:
 
@@ -61,19 +61,19 @@ A identidade visual foi pensada para transmitir **sofisticação**, utilizando u
   * Confirmação
 * Melhoria da usabilidade e clareza no processo de compra
 
-### 🎟️ Cupons de Desconto
+###  Cupons de Desconto
 
 * Aplicação de cupons promocionais
 * Cálculo automático de descontos no carrinho
 
-### 👤 Autenticação do Usuário
+### Autenticação do Usuário
 
 * Páginas de **Login** e **Cadastro**
 * Validação de campos de formulário
 
 ---
 
-## 🎯 Objetivos Técnicos
+##  Objetivos Técnicos
 
 * Aplicar conceitos avançados de **React**
 * Trabalhar com **componentização reutilizável**
@@ -84,16 +84,11 @@ A identidade visual foi pensada para transmitir **sofisticação**, utilizando u
 
 ---
 
-## 📌 Status do Projeto
+##  Status do Projeto
 
 * Projeto terminando
 
 ---
 
-## 📄 Observações
-
-Este projeto foi desenvolvido com fins **educacionais e demonstrativos**, não possuindo integração com gateway de pagamento real ou backend em produção.
-
----
 
 
